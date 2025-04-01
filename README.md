@@ -6,14 +6,15 @@ This project is a simple website built using Tailwind CSS for styling and custom
 
 ```
 tailwind-website
+├── index.html               # Main HTML file (in root for GitHub Pages)
 ├── src
 │   ├── css
 │   │   └── input.css        # Main CSS file with Tailwind directives
-│   ├── js
-│   │   └── main.js          # Custom JavaScript functionality
-│   └── index.html           # Main HTML file
+│   └── js
+│       └── main.js          # Custom JavaScript functionality
 ├── public
 │   └── assets               # Directory for static assets
+│       └── styles.css       # Built CSS file
 ├── package.json             # npm configuration file
 ├── tailwind.config.js       # Tailwind CSS configuration file
 ├── postcss.config.js        # PostCSS configuration file
@@ -41,7 +42,7 @@ To get started with this project, follow these steps:
    ```
 
 4. **Open the HTML file:**
-   Open `src/index.html` in your browser to view the website.
+   Open `index.html` in your browser to view the website.
 
 ## Usage
 
